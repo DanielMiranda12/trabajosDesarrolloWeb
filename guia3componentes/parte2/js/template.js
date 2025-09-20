@@ -3,7 +3,9 @@ const contenedor = document.getElementById("contenedor");
 
 const productos = [
     { titulo: "Laptop", desc: "16GB RAM", price: "1´600,000", image: "img/laptop.jpg" },
-    { titulo: "Mouse", desc: "Inalámbrico", price: "20,000", image: "img/mouse.jpg" }
+    { titulo: "Mouse", desc: "Inalámbrico", price: "20,000", image: "img/mouse.jpg" },
+    { titulo: "SSD", desc: "Capacidad 1TB", price: "100,000", image: "img/ssd.jpg" },
+    { titulo: "teclado", desc: "RGB", price: "180,000", image: "img/teclado.jpg" }
 ];
 
 productos.forEach(producto => {

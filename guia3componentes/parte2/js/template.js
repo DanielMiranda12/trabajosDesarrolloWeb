@@ -2,10 +2,11 @@ const template = document.getElementById("card-template");
 const contenedor = document.getElementById("contenedor");
 
 const productos = [
-    { titulo: "Laptop", desc: "16GB RAM", price: "1´600,000", image: "img/laptop.jpg" },
-    { titulo: "Mouse", desc: "Inalámbrico", price: "20,000", image: "img/mouse.jpg" },
-    { titulo: "SSD", desc: "Capacidad 1TB", price: "100,000", image: "img/ssd.jpg" },
-    { titulo: "teclado", desc: "RGB", price: "180,000", image: "img/teclado.jpg" }
+    { titulo: "Laptop", desc: "16GB RAM", price: 1600000, image: "img/laptop.jpg" },
+    { titulo: "Mouse", desc: "Inalámbrico", price: 20000, image: "img/mouse.jpg" },
+    { titulo: "SSD", desc: "Capacidad 1TB", price: 100000, image: "img/ssd.jpg" },
+    { titulo: "teclado", desc: "RGB", price: 180000, image: "img/teclado.jpg" },
+    { titulo: "teclado", desc: "8GB", price: 80000, image: "img/ram.jpg" }
 ];
 
 productos.forEach(producto => {

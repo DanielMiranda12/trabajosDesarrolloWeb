@@ -22,7 +22,7 @@ export default{
             const valido = users.find(u => u.user ===  this.usuario && u.pass === this.clave)
             if (valido) {
                 localStorage.setItem('logueado', 'true')
-                this.$router.push('/dashboard')
+                this.$router.push('/dashboard/productos')
             }else {
                 this.error = 'Credenciales Incorrectas'
             }
